@@ -20,7 +20,7 @@ on:
       - '.gitignore'
 
 jobs:
-  build:
+  build-n-test:
 
     runs-on: ubuntu-latest
     # See: https://github.com/marketplace/actions/skip-based-on-commit-message

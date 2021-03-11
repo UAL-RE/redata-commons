@@ -12,7 +12,7 @@ on:
       - 'v*'  # Push events to matching v*
 
 jobs:
-  build:
+  package-n-publish:
     runs-on: ubuntu-latest
 
     steps:
