@@ -1,4 +1,4 @@
-from redata_commons.git_info import GitInfo
+from redata.commons.git_info import GitInfo
 
 
 def test_GitInfo():

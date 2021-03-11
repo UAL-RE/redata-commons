@@ -1,12 +1,12 @@
-from setuptools import setup
+from setuptools import setup, find_namespace_packages
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='redata_commons',
+    name='redata',
     version='0.0.1',
-    packages=['redata_commons'],
+    packages=find_namespace_packages(),
     url='https://github.com/UAL-ODIS/redata_commons/',
     license='MIT License',
     author='Chun Ly',
