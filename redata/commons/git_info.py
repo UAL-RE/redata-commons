@@ -5,6 +5,11 @@ git_root = Path(__file__).parent.parent
 
 
 class GitInfo:
+    """
+    Provides git repo information
+
+    :param input_path: Full path containing the .git contents
+    """
     def __init__(self, input_path: str = git_root):
         self.input_path = input_path
         self.head_path = Path(self.input_path) / ".git" / "HEAD"
