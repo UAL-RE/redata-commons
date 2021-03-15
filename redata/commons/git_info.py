@@ -3,6 +3,8 @@ from pathlib import Path
 # Get git root
 git_root = Path(__file__).parent.parent
 
+no_git_str = '.git structure does not exist'
+
 
 class GitInfo:
     """
@@ -29,7 +31,7 @@ class GitInfo:
                 else:
                     return f"HEAD detached : {content[0]}"
         else:
-            return '.git structure does not exist'
+            return no_git_str
 
     def get_latest_commit(self):
         if self.head_path.exists():
@@ -46,4 +48,4 @@ class GitInfo:
 
             return commit[0], commit[0][:7]  # full and short hash
         else:
-            return '.git structure does not exist', ''
+            return no_git_str, ''
