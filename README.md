@@ -40,7 +40,6 @@ To use, there are a number of ways to import it the main class, `GitInfo`.
 ```python3
 import redata
 
-
 code_path = "/path/to/repo"
 gi = redata.commons.git_info.GitInfo(code_path)
 ```
@@ -50,8 +49,7 @@ or
 ```python3
 from redata.commons.git_info import GitInfo
 
-
-code_path = '/path/to/repo'
+code_path = "/path/to/repo"
 gi = GitInfo(code_path)
 ```
 
