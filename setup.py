@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='redata',
-    version='0.0.1',
+    version='0.1.0',
     packages=find_namespace_packages(),
     url='https://github.com/UAL-ODIS/redata_commons/',
     project_urls={
