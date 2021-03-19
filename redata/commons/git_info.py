@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Tuple
 
 # Get git root
 git_root = Path(__file__).parent.parent
@@ -8,19 +9,26 @@ no_git_str = '.git structure does not exist'
 
 class GitInfo:
     """
-    Provides git repo information
+    Provides ``git`` repo information
 
-    :param input_path: Full path containing the .git contents
+    :param input_path: Full path containing the ``.git`` contents
+
+    :ivar input_path: Full path containing the ``.git`` contents
+    :ivar head_path: Full path of the ``.git`` HEAD
+    :ivar branch: Active branch name
+    :ivar commit: Full hash
+    :ivar short_commit: short hash commit
     """
-    def __init__(self, input_path: str = git_root):
-        self.input_path = input_path
-        self.head_path = Path(self.input_path) / ".git" / "HEAD"
-        self.branch = self.get_active_branch_name()
-        commit_tuple = self.get_latest_commit()
-        self.commit = commit_tuple[0]
-        self.short_commit = commit_tuple[1]
+    def __init__(self, input_path: str):
+        self.input_path: str = input_path
+        self.head_path: Path = Path(self.input_path) / ".git" / "HEAD"
+        self.branch: str = self.get_active_branch_name()
+        commit_tuple: tuple = self.get_latest_commit()
+        self.commit: str = commit_tuple[0]
+        self.short_commit: str = commit_tuple[1]
 
-    def get_active_branch_name(self):
+    def get_active_branch_name(self) -> str:
+        """Retrieve active branch name"""
         if self.head_path.exists():
             with self.head_path.open("r") as f:
                 content = f.read().splitlines()
@@ -33,7 +41,8 @@ class GitInfo:
         else:
             return no_git_str
 
-    def get_latest_commit(self):
+    def get_latest_commit(self) -> Tuple[str, str]:
+        """Retrieve latest commit hash"""
         if self.head_path.exists():
             with self.head_path.open("r") as f:
                 content = f.read().splitlines()
