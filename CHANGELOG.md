@@ -1,5 +1,14 @@
 # Changelog
 
+## [Unreleased](https://github.com/UAL-ODIS/redata_commons/tree/HEAD)
+
+**Implemented enhancements:**
+ - Add sphinx documentation and publish to ReadTheDocs [#8](http://github.com/UAL-ODIS/redata_commons/pull/8)
+
+**Closed issues:**
+ - Add sphinx documentation and publish to ReadTheDocs [#5](http://github.com/UAL-ODIS/redata_commons/issues/5)
+
+
 ## [v0.1.0](https://github.com/UAL-ODIS/redata_commons/tree/v0.1.0) (2021-03-17)
 
 **Implemented enhancements:**
