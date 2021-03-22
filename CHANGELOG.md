@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased](https://github.com/UAL-ODIS/redata_commons/tree/HEAD)
+## [v0.1.0](https://github.com/UAL-ODIS/redata_commons/tree/v0.1.0) (2021-03-17)
 
 **Implemented enhancements:**
  - Add `git_info` module, include create release GitHub Actions; Include PyPI
