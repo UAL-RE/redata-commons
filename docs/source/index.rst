@@ -1,4 +1,4 @@
-.. redata_commons documentation master file, created by
+.. redata-commons documentation master file, created by
    sphinx-quickstart on Wed Mar 17 16:25:09 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.

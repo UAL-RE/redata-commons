@@ -1,4 +1,4 @@
-# redata_commons
+# redata-commons
 
 - [Overview](#overview)
 - [Installation](#installation)
@@ -26,7 +26,7 @@ From PyPI:
 
 From source:
 ```
-(venv) $ git clone git@github.com:UAL-ODIS/redata_commons.git
+(venv) $ git clone git@github.com:UAL-ODIS/redata-commons.git
 (venv) $ python setup.py install
 ```
 
@@ -59,7 +59,7 @@ gi = GitInfo(code_path)
 * Chun Ly, Ph.D. ([@astrochun](http://www.github.com/astrochun)) - [University of Arizona Libraries](https://github.com/ualibraries), [Office of Digital Innovation and Stewardship](https://github.com/UAL-ODIS)
 
 See also the list of
-[contributors](https://github.com/UAL-ODIS/redata_commons/contributors) who participated in this project.
+[contributors](https://github.com/UAL-ODIS/redata-commons/contributors) who participated in this project.
 
 
 ## License
