@@ -15,7 +15,7 @@ def test_GitInfo():
     assert len(gi.short_commit) == 7
 
     # Check for packaged case
-    gi = GitInfo()
+    gi = GitInfo(input_path=Path(gi_file))
     assert gi.branch == no_git_str
 
     assert gi.commit == no_git_str

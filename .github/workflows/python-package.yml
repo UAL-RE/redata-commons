@@ -11,6 +11,7 @@ on:
       - 'img/*'
       - 'LICENSE'
       - '.gitignore'
+      - 'docs/**'
   pull_request:
     paths-ignore:
       - '**.md'
@@ -18,13 +19,14 @@ on:
       - 'img/*'
       - 'LICENSE'
       - '.gitignore'
+      - 'docs/**'
 
 jobs:
   build-n-test:
 
     runs-on: ubuntu-latest
     # See: https://github.com/marketplace/actions/skip-based-on-commit-message
-    if: "!contains(github.event.head_commit.message, 'ci skip') || !contains(github.event.head_commit.message, 'skip ci')"
+    if: "!contains(github.event.head_commit.message, 'docs only')"
     strategy:
       matrix:
         python-version: ['3.7', '3.8', '3.9']
