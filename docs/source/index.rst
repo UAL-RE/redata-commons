@@ -18,7 +18,7 @@ The GitHub repository is available :repo:`here <>`.
    It includes a number of modules, such as:
 
      1. ``git_info``
-     2. ...
+     2. ``logger``
 
 .. toctree::
    :maxdepth: 3
