@@ -196,7 +196,7 @@ def pandas_write_buffer(df: pd.DataFrame, log_filename: str):
 
     buffer = io.StringIO()
     df.to_markdown(buffer)
-    print(buffer.getvalue())
+    print(buffer.getvalue())  # This log to stdout
 
     with open(log_filename, mode='a') as f:
         print(buffer.getvalue(), file=f)
