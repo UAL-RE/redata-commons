@@ -12,6 +12,15 @@ Submodules
    :undoc-members:
    :show-inheritance:
 
+``logger`` module
+~~~~~~~~~~~~~~~~~~~
+
+.. automodule:: redata.commons.logger
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 Module contents
 ---------------
 
