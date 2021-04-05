@@ -1,15 +1,15 @@
 # Changelog
 
-## [Unreleased](https://github.com/UAL-ODIS/redata-commons/tree/HEAD)
+## [v0.3.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.3.0) (2021-04-05)
 
 **Implemented enhancements:**
  - `Add logger module` [#10](http://github.com/UAL-ODIS/redata-commons/pull/10)
 
 **Closed issues:**
- - `Add logger module` [#1`](http://github.com/UAL-ODIS/redata-commons/issues/1)
+ - `Add logger module` [#1](http://github.com/UAL-ODIS/redata-commons/issues/1)
 
 
-## [v0.2.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.2.0)
+## [v0.2.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.2.0) (2021-03-29)
 
 **Implemented enhancements:**
  - Add sphinx documentation and publish to ReadTheDocs [#8](http://github.com/UAL-ODIS/redata-commons/pull/8)
