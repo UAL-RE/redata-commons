@@ -3,10 +3,15 @@
 [![GitHub Actions Sphinx build status](https://img.shields.io/github/workflow/status/UAL-ODIS/redata-commons/Sphinx%20Docs%20Check?label=sphinx&color=blue)](https://github.com/UAL-ODIS/redata-commons/actions?query=workflow%3A%22Sphinx+Docs+Check%22)
 [![RTDs build status](https://readthedocs.org/projects/redata-commons/badge/?version=latest&style=flat)](https://redata-commons.readthedocs.io/en/latest/)
 
-- [Overview](#overview)
-- [Installation](#installation)
-- [Execution](#execution)
-    - [Using `git_info`](#using-git_info)
+## Table of contents
+
+For our documentation, please click on the links below or visit [Read the Docs](https://redata-commons.readthedocs.io/en/latest/) directly.
+
+- [Overview]([#overview](https://redata-commons.readthedocs.io/en/latest/#overview))
+- [Installation](https://redata-commons.readthedocs.io/en/latest/installation.html#installation)
+- [Execution](https://redata-commons.readthedocs.io/en/latest/execution.html#execution)
+    - [Using `git_info`](https://redata-commons.readthedocs.io/en/latest/execution.html#using-git-info)
+    - [Using `logger`](https://redata-commons.readthedocs.io/en/latest/execution.html#using-logger)
 - [Authors](#authors)
 - [License](#license)
 
