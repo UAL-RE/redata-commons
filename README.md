@@ -1,5 +1,8 @@
 # redata-commons
 
+[![GitHub Actions Sphinx build status](https://img.shields.io/github/workflow/status/UAL-ODIS/redata-commons/Sphinx%20Docs%20Check?label=sphinx&color=blue)](https://github.com/UAL-ODIS/redata-commons/actions?query=workflow%3A%22Sphinx+Docs+Check%22)
+[![RTDs build status](https://readthedocs.org/projects/redata-commons/badge/?version=latest&style=flat)](https://redata-commons.readthedocs.io/en/latest/)
+
 - [Overview](#overview)
 - [Installation](#installation)
 - [Execution](#execution)
