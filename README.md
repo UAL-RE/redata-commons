@@ -14,6 +14,7 @@ This repository contains commonly used codes by ReDATA software. For our documen
     - [Using `logger`](https://redata-commons.readthedocs.io/en/latest/execution.html#using-logger)
 - [Authors](https://redata-commons.readthedocs.io/en/latest/authors.html)
 - [License](#license)
+- [API Documentation](https://redata-commons.readthedocs.io/en/latest/modules.html)
 
 
 ## License
