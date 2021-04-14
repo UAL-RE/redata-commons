@@ -7,7 +7,7 @@
 
 For our documentation, please click on the links below or visit [Read the Docs](https://redata-commons.readthedocs.io/en/latest/) directly.
 
-- [Overview]([#overview](https://redata-commons.readthedocs.io/en/latest/#overview))
+- [Overview](https://redata-commons.readthedocs.io/en/latest/#overview)
 - [Installation](https://redata-commons.readthedocs.io/en/latest/installation.html#installation)
 - [Execution](https://redata-commons.readthedocs.io/en/latest/execution.html#execution)
     - [Using `git_info`](https://redata-commons.readthedocs.io/en/latest/execution.html#using-git-info)
