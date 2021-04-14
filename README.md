@@ -12,16 +12,8 @@ This repository contains commonly used codes by ReDATA software. For our documen
 - [Execution](https://redata-commons.readthedocs.io/en/latest/execution.html#execution)
     - [Using `git_info`](https://redata-commons.readthedocs.io/en/latest/execution.html#using-git-info)
     - [Using `logger`](https://redata-commons.readthedocs.io/en/latest/execution.html#using-logger)
-- [Authors](#authors)
+- [Authors](https://redata-commons.readthedocs.io/en/latest/authors.html)
 - [License](#license)
-
-
-## Authors
-
-* Chun Ly, Ph.D. ([@astrochun](http://www.github.com/astrochun)) - [University of Arizona Libraries](https://github.com/ualibraries), [Office of Digital Innovation and Stewardship](https://github.com/UAL-ODIS)
-
-See also the list of
-[contributors](https://github.com/UAL-ODIS/redata-commons/contributors) who participated in this project.
 
 
 ## License
