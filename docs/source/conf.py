@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath('../../'))
 # -- Project information -----------------------------------------------------
 
 project = 'redata-commons'
-copyright = '2021, Chun Ly, UA Research Data Repository (ReDATA) Team'
+copyright = '2021, Arizona Board of Regents'
 author = 'Chun Ly, UA Research Data Repository (ReDATA) Team'
 
 # The full version, including alpha/beta/rc tags
