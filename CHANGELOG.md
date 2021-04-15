@@ -1,5 +1,15 @@
 # Changelog
 
+
+## [v0.3.1](https://github.com/UAL-ODIS/redata-commons/tree/v0.3.1) (2021-04-14)
+
+**Implemented enhancements:**
+ - `Update README.md for Sphinx documentation` [#12](http://github.com/UAL-ODIS/redata-commons/pull/12)
+
+**Closed issues:**
+ - `Update README.md for Sphinx documentation` [#9](http://github.com/UAL-ODIS/redata-commons/issues/9)
+
+
 ## [v0.3.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.3.0) (2021-04-05)
 
 **Implemented enhancements:**
