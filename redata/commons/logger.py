@@ -154,9 +154,9 @@ class LogCommons:
 
     def __init__(self, log: logging.Logger, script_name: str, gi: GitInfo,
                  code_name: str = '', version: str = __version__):
-        self.log: logging.Logger = log
-        self.script_name: str = script_name
-        self.gi: GitInfo = gi
+        self.log = log
+        self.script_name = script_name
+        self.gi = gi
         self.code_name = code_name
         self.version = version
 
