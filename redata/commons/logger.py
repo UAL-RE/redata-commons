@@ -140,22 +140,25 @@ class LogCommons:
     :param script_name: Name of script for log messages
     :param gi: Object containing git info
     :param code_name: Name of codebase/software (e.g., ReQUIAM, LD-Cool-P)
+    :param version: Version of codebase/software. Default: Use ``redata``'s
 
     :ivar log: Logging object
     :ivar script_name: Name of script for log messages
     :ivar gi: Object containing git info
     :ivar code_name: Name of codebase/software (e.g., ReQUIAM, LD-Cool-P)
+    :ivar version: Version of codebase/software.
     :ivar start_text: Text for script start
     :ivar asterisk: Parsing of start_text as asterisks
     :ivar sys_info: System info dict
     """
 
     def __init__(self, log: logging.Logger, script_name: str, gi: GitInfo,
-                 code_name: str = ''):
+                 code_name: str = '', version: str = __version__):
         self.log: logging.Logger = log
         self.script_name: str = script_name
         self.gi: GitInfo = gi
         self.code_name = code_name
+        self.version = version
 
         self.start_text: str = f"Started {script_name} script ... "
         self.asterisk: str = "*" * len(self.start_text)
@@ -166,7 +169,7 @@ class LogCommons:
         self.log.info(self.asterisk)
         self.log.info(self.start_text)
         self.log.debug(f"{self.code_name} active branch: {self.gi.branch}")
-        self.log.debug(f"{self.code_name} version: {__version__}"
+        self.log.debug(f"{self.code_name} version: {self.version}"
                        f"({self.gi.short_commit})")
         self.log.debug(f"{self.code_name} commit hash: {self.gi.commit}")
 
