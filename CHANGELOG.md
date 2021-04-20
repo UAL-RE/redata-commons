@@ -1,5 +1,13 @@
 # Changelog
 
+## [UNRELEASED](https://github.com/UAL-ODIS/redata-commons/tree/HEAD) (2021-??-??)
+
+**Fixed bugs:**
+ - Bug: LogCommons has hardcoded pieces [#13](http://github.com/UAL-ODIS/redata-commons/issues/13)
+
+**Merged pull requests:**
+ - Bug: LogCommons has hardcoded pieces [#14](http://github.com/UAL-ODIS/redata-commons/pull/14)
+
 
 ## [v0.3.1](https://github.com/UAL-ODIS/redata-commons/tree/v0.3.1) (2021-04-14)
 
