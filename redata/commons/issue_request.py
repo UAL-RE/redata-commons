@@ -45,8 +45,8 @@ def redata_request(method: str, url: str, headers: dict, data: dict = None,
         except ValueError:
             response_data = response.content
     except requests.exceptions.HTTPError as error:
-        print(f'Caught an HTTPError: {error}')
-        print('Body:\n', response.text)
+        log.warning(f'Caught an HTTPError: {error}')
+        log.warning('Body:\n', response.text)
         raise
 
     return response_data
