@@ -1,6 +1,6 @@
 # Changelog
 
-## [UNRELEASED](https://github.com/UAL-ODIS/redata-commons/tree/HEAD) (2021-??-??)
+## [v0.3.2](https://github.com/UAL-ODIS/redata-commons/tree/HEAD) (2021-04-20)
 
 **Fixed bugs:**
  - Bug: LogCommons has hardcoded pieces [#13](http://github.com/UAL-ODIS/redata-commons/issues/13)
