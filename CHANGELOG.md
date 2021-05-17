@@ -1,6 +1,15 @@
 # Changelog
 
-## [UNRELEASED](https://github.com/UAL-ODIS/redata-commons/tree/HEAD) (2021-??-??)
+## [v0.4.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.4.0) (2021-05-17)
+
+**Implemented enhancements:**
+ - Add issue_requests function to code [#15](http://github.com/UAL-ODIS/redata-commons/pull/15)
+
+**Closed issues:**
+ - Add issue_requests function to code [#11](http://github.com/UAL-ODIS/redata-commons/issues/11)
+
+
+## [v0.3.2](https://github.com/UAL-ODIS/redata-commons/tree/v0.3.2) (2021-04-20)
 
 **Fixed bugs:**
  - Bug: LogCommons has hardcoded pieces [#13](http://github.com/UAL-ODIS/redata-commons/issues/13)
@@ -12,19 +21,19 @@
 ## [v0.3.1](https://github.com/UAL-ODIS/redata-commons/tree/v0.3.1) (2021-04-14)
 
 **Implemented enhancements:**
- - `Update README.md for Sphinx documentation` [#12](http://github.com/UAL-ODIS/redata-commons/pull/12)
+ - Update README.md for Sphinx documentation [#12](http://github.com/UAL-ODIS/redata-commons/pull/12)
 
 **Closed issues:**
- - `Update README.md for Sphinx documentation` [#9](http://github.com/UAL-ODIS/redata-commons/issues/9)
+ - Update README.md for Sphinx documentation [#9](http://github.com/UAL-ODIS/redata-commons/issues/9)
 
 
 ## [v0.3.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.3.0) (2021-04-05)
 
 **Implemented enhancements:**
- - `Add logger module` [#10](http://github.com/UAL-ODIS/redata-commons/pull/10)
+ - Add logger module [#10](http://github.com/UAL-ODIS/redata-commons/pull/10)
 
 **Closed issues:**
- - `Add logger module` [#1](http://github.com/UAL-ODIS/redata-commons/issues/1)
+ - Add logger module [#1](http://github.com/UAL-ODIS/redata-commons/issues/1)
 
 
 ## [v0.2.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.2.0) (2021-03-29)
