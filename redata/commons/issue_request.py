@@ -29,7 +29,8 @@ def redata_request(method: str, url: str, headers: dict, data: dict = None,
                     is provided. Default: True
     :param log: Logger object for stdout and file logging. Default: stdout
 
-    :return: JSON response for the request returned as python dict
+    :return: JSON response for the request returned as python dict or
+             the full request. See ``process`` option
     """
 
     if method not in method_list:
