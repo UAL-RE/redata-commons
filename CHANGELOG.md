@@ -1,5 +1,14 @@
 # Changelog
 
+## [v0.4.1](https://github.com/UAL-ODIS/redata-commons/tree/v0.4.1) (2021-06-08)
+
+**Implemented enhancements:**
+ - redata_request should also provide the requests.Request response [#19](http://github.com/UAL-ODIS/redata-commons/pull/19)
+
+**Closed issues:**
+ - redata_request should also provide the requests.Request response [#18](http://github.com/UAL-ODIS/redata-commons/issues/18)
+
+
 ## [v0.4.0](https://github.com/UAL-ODIS/redata-commons/tree/v0.4.0) (2021-05-17)
 
 **Implemented enhancements:**
