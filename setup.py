@@ -10,10 +10,10 @@ setup(
     name='redata',
     version='0.4.1',
     packages=find_namespace_packages(),
-    url='https://github.com/UAL-ODIS/redata-commons/',
+    url='https://github.com/UAL-RE/redata-commons/',
     project_urls={
-        'Source': 'https://github.com/UAL-ODIS/redata-commons/',
-        'Tracker': 'https://github.com/UAL-ODIS/redata-commons/issues',
+        'Source': 'https://github.com/UAL-RE/redata-commons/',
+        'Tracker': 'https://github.com/UAL-RE/redata-commons/issues',
     },
     license='MIT License',
     author='Chun Ly',

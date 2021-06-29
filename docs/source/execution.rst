@@ -158,4 +158,4 @@ in logs:
    df = pd.read_csv('data.csv')  # This is a dummy filename
    logger.pandas_write_buffer(df, log_filename)
 
-.. _`ReQUIAM`: https://github.com/UAL-ODIS/ReQUIAM
+.. _`ReQUIAM`: https://github.com/UAL-RE/ReQUIAM

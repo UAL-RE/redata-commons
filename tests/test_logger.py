@@ -11,7 +11,7 @@ log_dir = ''
 logfile = f'testlog.{today.strftime("%Y-%m-%d")}.log'
 
 # CSV url
-csv_url_prefix = "https://raw.githubusercontent.com/UAL-ODIS/ReQUIAM_csv"
+csv_url_prefix = "https://raw.githubusercontent.com/UAL-RE/ReQUIAM_csv"
 csv_version    = "master"
 csv_filename   = "requiam_csv/data/research_themes.csv"
 csv_url        = f"{csv_url_prefix}/{csv_version}/{csv_filename}"
