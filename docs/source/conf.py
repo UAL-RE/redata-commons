@@ -68,7 +68,7 @@ html_static_path = ['_static']
 
 
 # -- External links for repeated use:
-repo_link = 'https://github.com/UAL-ODIS/redata-commons'
+repo_link = 'https://github.com/UAL-RE/redata-commons'
 extlinks = {
     'repo': (f"{repo_link}/%s", None),
     'repo-main-file': (f"{repo_link}/blob/main/%s", None),
