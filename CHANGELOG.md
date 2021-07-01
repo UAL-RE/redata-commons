@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.4.2](https://github.com/UAL-RE/redata-commons/tree/v0.4.2) (2021-07-01)
+
+**Merged pull requests:**
+ - Org rename [#20](https://github.com/UAL-RE/redata-commons/pull/20)
+
+
 ## [v0.4.1](https://github.com/UAL-RE/redata-commons/tree/v0.4.1) (2021-06-08)
 
 **Implemented enhancements:**
@@ -73,12 +79,12 @@
  - `______` [#XX](http://github.com/UAL-RE/redata-commons/pull/XX)
 
 **Fixed bugs:**
- - `______` [#XX](http://github.com/UAL-RE/redata-commons/issues/XX)
+ - `______` [#XX](https://github.com/UAL-RE/redata-commons/issues/XX)
 
 **Closed issues:**
- - `______` [#XX](http://github.com/UAL-RE/redata-commons/issues/XX)
+ - `______` [#XX](https://github.com/UAL-RE/redata-commons/issues/XX)
 
 **Merged pull requests:**
- - `______` [#XX](http://github.com/UAL-RE/redata-commons/pull/XX)
+ - `______` [#XX](https://github.com/UAL-RE/redata-commons/pull/XX)
 
 -->
