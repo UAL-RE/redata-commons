@@ -1,5 +1,6 @@
 Installation
 ------------
+The Python Package Index (PyPI) is a repository of software. 
 
 From :pypi:`PyPI <>`:
 
