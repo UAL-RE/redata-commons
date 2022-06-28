@@ -16,17 +16,16 @@ setup(
         'Tracker': 'https://github.com/UAL-RE/redata-commons/issues',
     },
     license='MIT License',
-    author='Chun Ly',
-    author_email='astro.chun@gmail.com',
+    author='Yan Han',
+    author_email='yhan818@gmail.com',
     description='Commons code used by ReDATA software',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    python_requires='>=3.7',
+    python_requires='>=3.8',
     install_requires=requirements,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3 :: Only',
-        'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9'
     ]
