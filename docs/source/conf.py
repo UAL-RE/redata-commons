@@ -23,7 +23,7 @@ copyright = '2022, Arizona Board of Regents'
 author = 'Yan Han, UA Research Data Repository (ReDATA) Team'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.4.2'
+release = 'v0.5.0'
 
 
 # -- General configuration ---------------------------------------------------

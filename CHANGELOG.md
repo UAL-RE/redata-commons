@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.5.0](https://github.com/UAL-RE/redata-commons/tree/v0.5.0) (2022-07-01)
+
+**Merged pull requests:**
+ - Updated to Python 3.9, pandas 1.4.3, and tabulate [#23](https://github.com/UAL-RE/redata-commons/pull/23)
+ - Added PULL_REQUEST_TEMPLATE.md and three PR templates .github/
+
 ## [v0.4.2](https://github.com/UAL-RE/redata-commons/tree/v0.4.2) (2021-07-01)
 
 **Merged pull requests:**
