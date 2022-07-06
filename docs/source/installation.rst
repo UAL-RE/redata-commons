@@ -43,7 +43,7 @@ to see the available parameters. The 2nd command is to build the package.
 After creating a pull request, workflow actions will be run/compile/test to check the updated code. One of the workflows automatically publish ``redata-commons`` in pypi.org, using its workflows at ``.github/workflows/pypi-publish.yml``. 
 
 Best Practices for using a Python ``requirements.txt`` 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - use pip freeze to generate a list of Python modules and packages installed in the virtual env.
 - ONLY list the modules and packages needed. Do NOT include unneccssary packages, as this makes upgrade extra efforts. It is also a waste of resources.
 - Keep requirements.txt file up to date and accurate. This ensure the project always use the latest version of of the Python modules and packages.
