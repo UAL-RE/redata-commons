@@ -42,7 +42,7 @@ There are a few files to updated for a new version:
  8. ``.github/workflows/pypi-publish.yml``: workflow publishing to pypi.org
 
 Building and Publishing ``redata-commons`` in pypi.org 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Directories ``build/``,  ``dist/``, the egg file ``redata.egg-info`` and so on (see .gitignore) are generated when running on building the package. Use the following first command 
 to see the available parameters. The 2nd command is to build the package.
