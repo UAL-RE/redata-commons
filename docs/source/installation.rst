@@ -25,8 +25,8 @@ Note:
 This beautiful table for Conda vs. pip https://docs.conda.io/projects/conda/en/latest/commands.html#conda-vs-pip-vs-virtualenv-commands
 
 
-Update ``redata-commons`` 
--------------------------
+Updating ``redata-commons`` 
+---------------------------
 
 ``redata-commons`` has a typical Python repository structrure. A good reading can be found on The Hitchhiker's Guide to Python: Best Practices for Development 
 at https://docs.python-guide.org/writing/structure/
@@ -41,7 +41,7 @@ There are a few files to updated for a new version:
  7. ``/docs/source/*.rst`` : RTD source files. These might need to be updated
  8. ``.github/workflows/pypi-publish.yml``: workflow publishing to pypi.org
 
-Publishing ``redata-commons`` in pypi.org 
+Building and Publishing ``redata-commons`` in pypi.org 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Directories ``build/``,  ``dist/``, the egg file ``redata.egg-info`` and so on (see .gitignore) are generated when running on building the package. Use the following first command 
