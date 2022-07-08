@@ -3,10 +3,10 @@
 ## [v0.5.0](https://github.com/UAL-RE/redata-commons/tree/v0.5.0) (2022-07-01)
 
 **Merged pull requests:**
- - Updated to Python 3.9, pandas 1.4.3, and tabulate [#23](https://github.com/UAL-RE/redata-commons/pull/23)
+ - Updated to Python 3.9, pandas 1.4.3, and tabulate 0.8.10 [#23](https://github.com/UAL-RE/redata-commons/pull/23)
  - Added PULL_REQUEST_TEMPLATE.md and three PR templates .github/
  - Update Sphinx compile issue after upgrading to Python 3.9 and related packages [#32](https://github.com/UAL-RE/redata-commons/pull/32)
- - Upgrade Sphix dependencies to the latest versions. 
+ - Upgrade Sphix dependencies to the latest versions. sphinx=5.0.0, sphinx-rtd-theme==1.0.0 and sphinx-autodoc-typehints==1.18.3
 
 ## [v0.4.2](https://github.com/UAL-RE/redata-commons/tree/v0.4.2) (2021-07-01)
 
