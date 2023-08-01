@@ -9,6 +9,6 @@ pandas==1.4.3
 tabulate==0.8.10
 
 # 2021-04: requests==2.25.1
-# to be upgraded
+# 2022-07: requests==2.31.0
 requests==2.25.1
 
