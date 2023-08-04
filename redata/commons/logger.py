@@ -1,6 +1,7 @@
 import sys
 import io
-from os import path, uname, chmod, mkdir
+from os import path, chmod, mkdir
+from platform import uname
 
 from datetime import date
 import pandas as pd
