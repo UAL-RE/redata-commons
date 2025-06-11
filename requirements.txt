@@ -2,14 +2,14 @@
 # See dependencies' websites for version upgrade details
 # 2021-04: pandas==1.2.3
 # 2022-07: pandas==1.4.3 
-pandas==1.4.3
+pandas==2.2.3
 
 # 2021-04: tabulate==0.8.3 
 # 2022-07: tabulate==0.8.10
-tabulate==0.8.10
+tabulate==0.9.0
 
 # 2021-04: requests==2.25.1
 # 2022-07: requests==2.31.0
-requests==2.31.0
+requests==2.32.3
 
 
