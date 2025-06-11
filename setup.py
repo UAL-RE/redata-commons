@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as fr:
 
 setup(
     name='redata',
-    version='0.4.1',
+    version='0.6.0',
     packages=find_namespace_packages(),
     url='https://github.com/UAL-RE/redata-commons/',
     project_urls={
