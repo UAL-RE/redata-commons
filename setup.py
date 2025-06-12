@@ -16,7 +16,7 @@ setup(
         'Tracker': 'https://github.com/UAL-RE/redata-commons/issues',
     },
     license='MIT License',
-    author='UAL-RE',
+    author='Research Engagement (University of Arizona Libraries)',
     author_email='redata@arizona.edu',
     description='Commons code used by ReDATA software',
     long_description=long_description,
