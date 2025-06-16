@@ -20,10 +20,10 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 project = 'redata-commons'
 copyright = '2022, Arizona Board of Regents'
-author = 'Yan Han, UA Research Data Repository (ReDATA) Team'
+author = 'Research Engagement (University of Arizona Libraries)'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.5.0'
+release = 'v0.6.0'
 
 
 # -- General configuration ---------------------------------------------------
