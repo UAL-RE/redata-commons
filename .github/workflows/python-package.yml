@@ -39,7 +39,9 @@ jobs:
         python-version: ${{ matrix.python_version }}
     - name: Install setuptools for python 3.12 and 3.13
       if: matrix.python_version != '3.11'
-      run: python -m pip install setuptools pandas
+      run: |
+       python -m pip install setuptools pandas
+       python -m pip install -r requirements.txt
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
