@@ -21,11 +21,11 @@ setup(
     description='Commons code used by ReDATA software',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    python_requires='>=3.9',
+    python_requires='>=3.11',
     install_requires=requirements,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3 :: Only',
-        'Programming Language :: Python :: 3.9'
+        'Programming Language :: Python :: 3.11'
     ]
 )
