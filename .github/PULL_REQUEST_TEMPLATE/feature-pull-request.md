@@ -1,30 +1,17 @@
 <!-- IMPORTANT: Please do not create a PR without creating an issue first. -->
-
 <!-- Fields in **bold** are REQUIRED, fields in *italics* are OPTIONAL. -->
 
 **Description**
 <!-- A description of how this PR addresses the feature/enhancement. -->
 
-<!-- Add any linked issue(s) -->
+<!-- Add any related issues or pull requests -->
 See #
 
+**Documentation Update**
 
-**ToDo List**
+ - [ ] I have updated README.md and other relevant documentation
+ - [ ] No documentation update is needed
 
-<!-- Add any open questions and Pre-Merge TODOs. Use checkboxes. -->
- - [ ] ToDo -->
- - [ ] ToDo -->
- - [ ] ToDo -->
-
-
-**Test plan**
-<!-- Explain how you tested this feature so that others can replicate it. -->
+*Implementation Notes*
+<!-- Describe quirks, issues, provide external resources,  -->
 <!-- Example: The exact commands you ran and their output, screenshots. -->
-
-
-*Resources*
-<!-- Links to blog posts, StackOverflow, libraries or add-ons used to solve this problem. -->
-
-
-*Screenshots or additional context*
-<!-- Add any other context about the problem here and/or screenshots to help explain the problem. -->
