@@ -1,15 +1,13 @@
-<!-- Create a new Release issue before using this template -->
-
 **Description**
 <!-- Do not push the release tag until this PR is merged -->
-This pull request updates redata-commons v0.xx.x -> v0.xx.0. Closes #<insert associated issue number>
+This pull request updates redata-commons v0.xx.x -> v0.xx.0
 
-<!-- You may create the pull request after editing the Title and Description above. -->
-<!-- The remaining steps can be completed after PR creation -->
-  
 **Check**
 - [ ] Title and description have been updated.
 - [ ] Verified the correct branch is being merged by checking the text immediately below the PR title.
+- [ ] Updated version in [`setup.py`](../../setup.py)
+- [ ] Updated version in [`redata/__init__.py`](../../redata/__init__.py)
+- [ ] Updated version in ReadTheDocs [`conf.py`](../../docs/source/conf.py)
 
 **Begin a new release**
 :warning: Do not publish the release until this PR is merged :warning:
@@ -22,10 +20,8 @@ This pull request updates redata-commons v0.xx.x -> v0.xx.0. Closes #<insert ass
 **Update Documentation in the Branch**
 - [ ] Copy the generated release notes from the previous step to the top of `CHANGELOG.md`
 - [ ] Update `README.md` (if needed)
-- [ ] Update ReadTheDocs documentation (if needed). If changes were made, [verify](https://app.readthedocs.org/projects/redata-commons/builds/) that ReadTheDocs successfully built the Documentation
+- [ ] [ReadTheDocs files](../../docs/source/). Check and update the appropriate sections in the .rst files as needed
 
 **Release**
 - [ ] Merge this PR
-- [ ] Return to [Releases](../releases) and publish the draft release
-- [ ] Verify that the version was successfully published to PyPi. This should happen automatically when the release is published
-- [ ] Verify that [ReadTheDocs (latest)](https://redata-commons.readthedocs.io/en/latest/) reflects the updates made (if any)
+- [ ] Return to [Releases](../releases) and publish the draft release.

@@ -1,6 +1,6 @@
 name: Feature
 description: Suggest an enhancement here
-title: "Feat: <short description of the enhancement>"
+title: "<short description of the enhancement>"
 labels: ["enhancement"]
 body:
   - type: markdown
