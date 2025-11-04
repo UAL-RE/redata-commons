@@ -5,11 +5,9 @@ This pull request updates redata-commons v0.xx.x -> v0.xx.0
 **Check**
 - [ ] Title and description have been updated.
 - [ ] Verified the correct branch is being merged by checking the text immediately below the PR title.
-
-**Bump version**
-- [ ] [`setup.py`](../../setup.py)
-- [ ] [`redata/__init__.py`](../../redata/__init__.py)
-- [ ] ReadTheDocs [`conf.py`](../../docs/source/conf.py)
+- [ ] Updated version in [`setup.py`](../../setup.py)
+- [ ] Updated version in [`redata/__init__.py`](../../redata/__init__.py)
+- [ ] Updated version in ReadTheDocs [`conf.py`](../../docs/source/conf.py)
 
 **Begin a new release**
 :warning: Do not publish the release until this PR is merged :warning:
