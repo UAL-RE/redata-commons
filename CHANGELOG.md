@@ -1,4 +1,15 @@
 # Changelog
+## [v0.6.0](https://github.com/UAL-RE/redata-commons/tree/v0.6.0) (2025-11-06)
+
+## What's Changed
+* Update RTD for pypi by @yhan818 in https://github.com/UAL-RE/redata-commons/pull/31
+* Bug/32_sphinx_python3.7_pandas_error by @yhan818 in https://github.com/UAL-RE/redata-commons/pull/33
+* Update CHANGELOG.md by @yhan818 in https://github.com/UAL-RE/redata-commons/pull/34
+* Enhancement/doc by @yhan818 in https://github.com/UAL-RE/redata-commons/pull/39
+* Fix: Use platform.uname instead of os.uname (Issue #37) by @zoidy in https://github.com/UAL-RE/redata-commons/pull/38
+* Chore: Add issue templates and update PR templates by @HafeezOJ in https://github.com/UAL-RE/redata-commons/pull/44
+* Update redata-commons dependencies by @HafeezOJ in https://github.com/UAL-RE/redata-commons/pull/42
+
 
 ## [v0.5.0](https://github.com/UAL-RE/redata-commons/tree/v0.5.0) (2022-07-01)
 
@@ -6,7 +17,8 @@
  - Updated to Python 3.9, pandas 1.4.3, and tabulate [#23](https://github.com/UAL-RE/redata-commons/pull/23)
  - Added PULL_REQUEST_TEMPLATE.md and three PR templates .github/
  - Update Sphinx compile issue after upgrading to Python 3.9 and related packages [#32](https://github.com/UAL-RE/redata-commons/pull/32)
- - Upgrade Sphix dependencies to the latest versions. 
+ - Upgrade Sphinx dependencies to the latest versions. 
+
 
 ## [v0.4.2](https://github.com/UAL-RE/redata-commons/tree/v0.4.2) (2021-07-01)
 
