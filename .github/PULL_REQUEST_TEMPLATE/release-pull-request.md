@@ -1,8 +1,10 @@
-**Description**
+_**Description**
 <!-- Do not push the release tag until this PR is merged -->
 This pull request updates redata-commons v0.xx.x -> v0.xx.0
 
 **Check**
+
+<!-- After using this template, check the links in the PR to ensure they resolve and replace `../../` with `../tree/main/` in any broken link. -->
 - [ ] Title and description have been updated.
 - [ ] Verified the correct branch is being merged by checking the text immediately below the PR title.
 - [ ] Updated version in [`setup.py`](../../setup.py)
@@ -24,4 +26,4 @@ This pull request updates redata-commons v0.xx.x -> v0.xx.0
 
 **Release**
 - [ ] Merge this PR
-- [ ] Return to [Releases](../releases) and publish the draft release.
+- [ ] Return to [Releases](../releases) and publish the draft release._
