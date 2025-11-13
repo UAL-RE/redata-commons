@@ -28,13 +28,11 @@ jobs:
       run: |
         python setup.py sdist bdist_wheel
     - name: Publish to Test PyPI
+      environment:
+        name: testpypi
+        url: https://test.pypi.org/p/redata/
+      permissions:
+        id-token: write
       uses: pypa/gh-action-pypi-publish@release/v1.13
       with:
-        user: __token__
-        password: ${{ secrets.TEST_PYPI_TOKEN }}
         repository_url: https://test.pypi.org/legacy/
-    - name: Publish to PyPI
-      uses: pypa/gh-action-pypi-publish@release/v1.13
-      with:
-        user: __token__
-        password: ${{ secrets.PYPI_TOKEN }}
