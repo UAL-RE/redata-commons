@@ -12,13 +12,8 @@ on:
       - 'v*'  # Push events to matching v*
 
 jobs:
-  package-n-publish:
+  package-build:
     runs-on: ubuntu-latest
-    environment:
-      name: testpypi
-      url: https://test.pypi.org/p/redata/
-    permissions:
-      id-token: write
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -32,7 +27,44 @@ jobs:
     - name: Build
       run: |
         python setup.py sdist bdist_wheel
+    - name: upload distribution package
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ github.event.repository.name }} - ${{ github.ref_name}}
+        path: dist/
+
+  publish-to-testpypi:
+    needs: [package-build]
+    runs-on: ubuntu-latest
+    environment:
+      name: testpypi
+      url: https://test.pypi.org/p/redata/
+    permissions:
+      id-token: write
+    steps:
+    - name: download distribution package
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ github.event.repository.name }}
+        path: dist/
     - name: Publish to Test PyPI
       uses: pypa/gh-action-pypi-publish@release/v1.13
       with:
         repository_url: https://test.pypi.org/legacy/
+
+  publish-to-pypi:
+    needs: [package-build]
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/redata/
+    permissions:
+      id-token: write
+    steps:
+    - name: download distribution package
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ github.event.repository.name }} - ${{ github.ref_name}}
+        path: dist/
+    - name: Publish to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1.13
