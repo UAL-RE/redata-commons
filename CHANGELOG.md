@@ -1,5 +1,5 @@
 # Changelog
-## [v0.6.0](https://github.com/UAL-RE/redata-commons/tree/v0.6.0) (2025-11-06)
+## [v0.6.0](https://github.com/UAL-RE/redata-commons/tree/v0.6.0) (2025-11-17)
 
 ## What's Changed
 * Update RTD for pypi by @yhan818 in https://github.com/UAL-RE/redata-commons/pull/31
