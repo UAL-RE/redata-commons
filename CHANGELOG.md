@@ -1,5 +1,5 @@
 # Changelog
-## [v0.6.0](https://github.com/UAL-RE/redata-commons/tree/v0.6.0) (2025-11-06)
+## [v0.6.0](https://github.com/UAL-RE/redata-commons/tree/v0.6.0) (2025-11-17)
 
 ## What's Changed
 * Update RTD for pypi by @yhan818 in https://github.com/UAL-RE/redata-commons/pull/31
@@ -9,6 +9,7 @@
 * Fix: Use platform.uname instead of os.uname (Issue #37) by @zoidy in https://github.com/UAL-RE/redata-commons/pull/38
 * Chore: Add issue templates and update PR templates by @HafeezOJ in https://github.com/UAL-RE/redata-commons/pull/44
 * Update redata-commons dependencies by @HafeezOJ in https://github.com/UAL-RE/redata-commons/pull/42
+* Fix: Change pypi-publish action from master to release/v1.13 by @HafeezOJ in https://github.com/UAL-RE/redata-commons/pull/48
 
 
 ## [v0.5.0](https://github.com/UAL-RE/redata-commons/tree/v0.5.0) (2022-07-01)
