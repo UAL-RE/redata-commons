@@ -23,7 +23,7 @@ copyright = '2022, Arizona Board of Regents'
 author = 'Research Engagement (University of Arizona Libraries)'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.6.0'
+release = 'v0.6.1'
 
 
 # -- General configuration ---------------------------------------------------

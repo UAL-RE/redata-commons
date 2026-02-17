@@ -8,7 +8,7 @@ with open("requirements.txt", "r") as fr:
 
 setup(
     name='redata',
-    version='0.6.0',
+    version='0.6.1',
     packages=find_namespace_packages(),
     url='https://github.com/UAL-RE/redata-commons/',
     project_urls={
@@ -21,11 +21,11 @@ setup(
     description='Commons code used by ReDATA software',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    python_requires='>=3.11',
+    python_requires='>=3.14',
     install_requires=requirements,
     classifiers=[
         'Development Status :: 4 - Beta',
         'Programming Language :: Python :: 3 :: Only',
-        'Programming Language :: Python :: 3.11'
+        'Programming Language :: Python :: 3.14'
     ]
 )
