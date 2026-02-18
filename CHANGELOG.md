@@ -1,4 +1,6 @@
 # Changelog
+## [v0.6.1](https://github.com/UAL-RE/redata-commons/tree/v0.6.1) (2026-02-17)
+
 ## [v0.6.0](https://github.com/UAL-RE/redata-commons/tree/v0.6.0) (2025-11-17)
 
 ## What's Changed
